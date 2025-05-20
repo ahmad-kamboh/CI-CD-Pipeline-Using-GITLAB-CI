@@ -1,0 +1,15 @@
+# Ignore build artifacts
+/build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node modules (if you ever add node projects)
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore environment files
+.env
