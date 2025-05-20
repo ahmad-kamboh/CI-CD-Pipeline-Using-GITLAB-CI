@@ -6,6 +6,9 @@
 - Understand GitLab CI and Runner concepts.
 - Create a pipeline that builds a file and tests its existence.
 
+  ![Image](https://github.com/user-attachments/assets/2dca93f0-dfe1-43fe-bcbe-5246d4edc23f)
+  
+
 ## Steps
 
 1. Launch EC2 Instance on AWS.
@@ -19,6 +22,8 @@
 
 - **Build Stage**: Creates a directory `build` and a file `somefile.txt`.
 - **Test Stage**: Verifies if the file exists.
+
+![Image](https://github.com/user-attachments/assets/eff360ef-ea80-4484-a533-833303cb9b52)
 
 ## Note
 Make sure your GitLab Runner is correctly registered and running on your EC2 instance.
