@@ -1,0 +1,19 @@
+stages:
+- build
+- test
+
+create-file:
+image: alpine
+stage: build
+script:
+- echo "Building first file..."
+- mkdir build
+- touch build/somefile.txt
+artifacts:
+paths:
+- build/
+test-file:
+image: alpine
+stage: test
+script:
+- test -f build/somefile.txt
